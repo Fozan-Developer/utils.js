@@ -94,3 +94,172 @@ const random2 = utils.number.random(1000); // max
 ```js
 const percent = utils.number.percent(1, 100); // 1 %
 ```
+
+## ➗ Parse
+
+### URL
+
+```js
+const url = utils.perase.url("https://github.com/Fozan-Developer/utils.js");
+```
+
+## 🟰 RegExp
+
+**Содержание:**
+* Validation Base64
+* Validating a credit card number
+* Validation Date
+* Validation Email
+* File extension
+* Validation IPv4
+* Validation ISBN
+* isNumber
+* Validation Number
+* Validation URL
+* Validation Username
+* Validation Zip-Code
+
+### Validation Base64
+
+```js
+const argument = "base64";
+
+const base64 = utils.regexp.base64(argument); // false
+```
+
+### Validating a credit card number
+
+```js
+const sucs = utils.regexp.card("1111111111111111"); // true
+const fail = utils.regexp.card("12345"); // false
+```
+
+### Validation Date
+
+```js
+const date1 = utils.regexp.date("29-02-2000"); // true
+const date2 = utils.regexp.date("29-02-2001"); // false
+```
+
+### Validation Email
+
+```js
+const email = utils.regexp.email("test@gmail.com"); // true
+```
+
+### File extension
+
+```js
+const file_name = "index.js";
+
+const file = utils.regexp.file(file_name); // js
+```
+
+### Validation IPv4
+
+```js
+const ipv4 = utils.regexp.ipv4("192.0.2.235");
+```
+
+### Validation ISBN
+
+```js
+const isbn1 = utils.regexp.isbn("ISBN 9781106998966"); // true
+const isbn2 = utils.regexp.isbn("1106998966"); // true
+const isbn3 = utils.regexp.isbn("110699896x"); // true
+```
+
+### isNumber
+
+**Check for a number**
+
+```js
+const isNumber1 = utils.regexp.isNumber("123"); // true
+const isNumber2 = utils.regexp.isNumber("123x"); // false
+```
+
+### Validation Number
+
+**Validate phone number**
+
+```js
+const number1 = utils.regexp.isNumber("(121) 123-1234"); // true
+const number2 = utils.regexp.isNumber("+1 123-123-1234"); // true
+const number3 = utils.regexp.isNumber("+1 123-123-12-12"); // false
+```
+
+### Validation URL
+
+```js
+const url1 = utils.regexp.url("https://github.com/"); // true
+const url2 = utils.regexp.url("abc"); // false
+```
+
+### Validation Username
+
+**Validation of username by form:**
+* Length from 3 to 16 characters
+* Digits
+* Small letters
+* Characters - and _
+
+```js
+const username1 = utils.regexp.username("admin_owner-1"); // true
+const username2 = utils.regexp.username("Admin_Owner-1"); // false
+```
+
+### Validation Zip-Code
+
+```js
+const rus = utils.regexp.zip_code("RUS", "537414"); // true
+const usa = utils.regexp.zip_code("USA", "98765-4321"); // true
+```
+
+## ✡️ Symbol
+
+**Содержание:**
+* Smileys for different events
+* Process-bar
+* Number to character
+* Random from an array
+
+### Smileys for different events
+
+**There are three kinds of events:**
+* sucs - Successful
+* fail - Not successful
+* loading - Loading
+
+```js
+const sucs = utils.symbol.actions("sucs"); // ✅
+const fail = utils.symbol.actions("fail"); // ✖️
+const loading = utils.symbol.actions("loading"); // 🔄
+```
+
+### Process-bar
+
+**Process-bar types:**
+* stars - returns the process-bar as stars (★★★★★)
+* squares - returns process-bar as squares (▪▪▪▪▪▪▪▪▪▪)
+
+```js
+const stars = utils.symbol.bar({ type: "stars" current: 50, maximum: 100 }); // ★★✯☆☆
+const squares = utils.symbol.bar({ type: "squares" current: 10, maximum: 100 }); // ▪▫▫▫▫▫▫▫▫▫
+```
+
+### Number to character
+
+**Returns a number in the form of characters**
+
+```js
+const number = utils.symbol.number(123); // 1️⃣2️⃣3️⃣
+```
+
+### Random from an array
+
+**Method helps to get a random element from an array.**
+**Use the _String_ data type in the array to work correctly.**
+
+```js
+const pick = utils.symbol.pick(["Java", "JavaScript", "Node.JS"]); // Node.JS
+```
