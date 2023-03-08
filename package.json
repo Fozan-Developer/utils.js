@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Fozan-Developer/utils.js/issues"
   },
-  "homepage": "https://github.com/Fozan-Developer/utils.js#readme"
+  "homepage": "https://github.com/Fozan-Developer/utils.js#readme",
+  "dependencies": {
+    "url": "^0.11.0"
+  }
 }
