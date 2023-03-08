@@ -1,4 +1,4 @@
-<h1 align="center">📖 Документация Utils.js</h1>
+<h1 align="center">📖 Documentation Utils.js</h1>
 
 ## Contents
 * [Connecting the library](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#-connecting-the-library)
