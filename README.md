@@ -28,7 +28,7 @@ const utils = require('@mr_fozan/utils.js');
 
 ## 📖  Documentation
 
-**You can find a complete guide on our [website](https://fozan.gitbook.io/utils.js/)**
+**You can find a complete guide on our [website](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md)**
 
 ## 👥 Contributors
 

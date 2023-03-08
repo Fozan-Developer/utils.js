@@ -1,9 +1,13 @@
-<h1 align="center">📖 Документация Utils.js/h1>
+<h1 align="center">📖 Документация Utils.js</h1>
 
 ## Contents
-* Connecting the library
-* Date and time
-* Declination
+* [Connecting the library](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#-connecting-the-library)
+* [Date and time](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#-date-and-time)
+* [Declination](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#-declination)
+* [Number](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#-numbers)
+* [Parse](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#-parse)
+* [RegExp](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#-regexp)
+* [Symbol](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#%EF%B8%8F-symbol)
 
 ## 🚀 Connecting the library
 ```js
@@ -11,6 +15,12 @@ const utils = require('@mr_fozan/utils.js');
 ```
 
 ## 🕘 Date and time
+
+**Contents:**
+* [Getting timestamp](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#getting-timestamp)
+* [Millisecond calculator](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#millisecond-calculator)
+* [Date and time via timestamp](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#date-and-time-via-timestamp)
+* [Expanded time](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#expanded-time)
 
 ### Getting timestamp
 
@@ -55,6 +65,10 @@ const unixStampLeft = utils.date.unixStampLeft({ time: 1000, lang: "ru" }); // 1
 
 ## 💬 Declination
 
+**Contents:**
+
+* [Declension by number](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#declension-by-number)
+
 ### Declension by number
 
 ```js
@@ -66,7 +80,12 @@ const apple = utils.declination.number({
 }); // Яблоко
 ```
 
-## 🔢 Числа
+## 🔢 Numbers
+
+**Contents:**
+* [Number visualization](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#number-visualization)
+* [Random numbers](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#random-numbers)
+* [Getting a Percentage](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#getting-a-percentage)
 
 ### Number visualization
 
@@ -97,7 +116,10 @@ const percent = utils.number.percent(1, 100); // 1 %
 
 ## ➗ Parse
 
-### URL
+**Contents:**
+* [Parse URL](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#parse-url)
+
+### Parse URL
 
 ```js
 const url = utils.perase.url("https://github.com/Fozan-Developer/utils.js");
@@ -105,19 +127,19 @@ const url = utils.perase.url("https://github.com/Fozan-Developer/utils.js");
 
 ## 🟰 RegExp
 
-**Содержание:**
-* Validation Base64
-* Validating a credit card number
-* Validation Date
-* Validation Email
-* File extension
-* Validation IPv4
-* Validation ISBN
-* isNumber
-* Validation Number
-* Validation URL
-* Validation Username
-* Validation Zip-Code
+**Contents:**
+* [Validation Base64](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#validation-base64)
+* [Validating a credit card number](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#validating-a-credit-card-number)
+* [Validation Date](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#validation-date)
+* [Validation Email](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#validation-email)
+* [File extension](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#file-extension)
+* [Validation IPv4](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#validation-ipv4)
+* [Validation ISBN](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#validation-isbn)
+* [isNumber](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#isnumber)
+* [Validation Number](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#validation-number)
+* [Validation URL](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#validation-url)
+* [Validation Username](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#validation-username)
+* [Validation Zip-Code](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#validation-zip-code)
 
 ### Validation Base64
 
@@ -217,11 +239,11 @@ const usa = utils.regexp.zip_code("USA", "98765-4321"); // true
 
 ## ✡️ Symbol
 
-**Содержание:**
-* Smileys for different events
-* Process-bar
-* Number to character
-* Random from an array
+**Contents:**
+* [Smileys for different events](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#smileys-for-different-events)
+* [Process-bar](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#process-bar)
+* [Number to character](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#number-to-character)
+* [Random from an array](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#random-from-an-array)
 
 ### Smileys for different events
 
