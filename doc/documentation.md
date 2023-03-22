@@ -86,6 +86,7 @@ const apple = utils.declination.number({
 * [Number visualization](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#number-visualization)
 * [Random numbers](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#random-numbers)
 * [Getting a Percentage](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#getting-a-percentage)
+* [Even number](https://github.com/Fozan-Developer/utils.js/blob/main/doc/documentation.md#even-number)
 
 ### Number visualization
 
@@ -114,6 +115,14 @@ const random2 = utils.number.random(1000); // max
 const percent = utils.number.percent(1, 100); // 1 %
 ```
 
+### Even number
+
+```js
+const even = utils.number.even("A"); // undefined
+const even2 = utils.number.even(123); // false
+const even3 = utils.number.even(12346); // true
+```
+
 ## ➗ Parse
 
 **Contents:**
@@ -122,7 +131,7 @@ const percent = utils.number.percent(1, 100); // 1 %
 ### Parse URL
 
 ```js
-const url = utils.perase.url("https://github.com/Fozan-Developer/utils.js");
+const url = utils.parse.url("https://github.com/Fozan-Developer/utils.js");
 ```
 
 ## 🟰 RegExp
