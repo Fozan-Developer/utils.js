@@ -93,13 +93,13 @@ const apple = utils.declination.number({
 #### Separate the discharges
 
 ```js
-const division = utils.number.visual({ type: "division", number: 1000, division: "."}); // 1.000
+const division = utils.number.division(1000, "."); // 1.000
 ```
 
 #### Add a suffix to a number
 
 ```js
-const suffix = utils.number.vusial({ type: "word", number: 1000 }); // 1K
+const suffix = utils.number.suffix(1000); // 1K
 ```
 
 ### Random numbers
