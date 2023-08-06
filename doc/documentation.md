@@ -112,7 +112,7 @@ const random2 = utils.number.random(1000); // max
 ### Getting a Percentage
 
 ```js
-const percent = utils.number.percent(1, 100); // 1 %
+const percent = utils.number.percent(1, 100); // 1
 ```
 
 ### Even number
