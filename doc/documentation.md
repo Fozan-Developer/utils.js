@@ -60,7 +60,8 @@ const date_time = utils.date.getDate(timestamp); // [ '08.02.2023', ' 19:01:06' 
 * en - English language
 
 ```js
-const unixStampLeft = utils.date.unixStampLeft({ time: 1000, lang: "ru" }); // 1 сек.
+const unixTimeFull = utils.date.unixTime({ time: 1000, lang: "ru" }); // 1 сек.
+const unixTimeShort = utils.date.unixTime({ time: 1000, type: "short" }); // 00:00:00
 ```
 
 ## 💬 Declination
