@@ -1,8 +1,10 @@
-const number = require('./lib/number/index.js');
-const date = require('./lib/date/index.js');
-const symbol = require('./lib/symbol/index.js');
-const declination = require('./lib/declination/index.js');
-const regexp = require('./lib/regexp/index.js');
-const parse = require('./lib/parse/index.js');
+// Importing modules from their respective directories
+const number = require('./lib/number');
+const date = require('./lib/date');
+const symbol = require('./lib/symbol');
+const declination = require('./lib/declination');
+const regexp = require('./lib/regexp');
+const parse = require('./lib/parse');
 
+// Exporting all modules as a single object
 module.exports = { number, date, symbol, declination, regexp, parse };
