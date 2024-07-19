@@ -1,22 +1,22 @@
 {
   "name": "@mr_fozan/utils.js",
   "version": "1.0.9",
-  "description": "",
+  "description": "Utils.js",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Fozan-Developer/utils.js.git"
   },
   "author": "Mr_Fozan",
-  "license": "ISC",
+  "license": "MIT",
+  "dependencies": {
+    "url": "^0.11.0"
+  },
   "bugs": {
     "url": "https://github.com/Fozan-Developer/utils.js/issues"
   },
-  "homepage": "https://github.com/Fozan-Developer/utils.js#readme",
-  "dependencies": {
-    "url": "^0.11.0"
-  }
+  "homepage": "https://github.com/Fozan-Developer/utils.js#readme"
 }
